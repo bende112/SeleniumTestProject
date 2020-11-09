@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NUnit" Version="3.12.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.16.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+    <PackageReference Include="Selenium.Support" Version="3.141.0" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="86.0.4240.2200" />
+    <PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
+    <PackageReference Include="Selenium.WebDriver.GeckoDriver" Version="0.27.0" />
+    <PackageReference Include="FluentAssertions" Version="5.10.3" />
+    <PackageReference Include="SpecFlow" Version="3.4.31" />
+    <PackageReference Include="gherkin" Version="6.0.0" />
+    <PackageReference Include="SpecFlow.NUnit" Version="3.4.31" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="PageObject\" />
+    <Folder Include="Features\" />
+    <Folder Include="StepDefinations\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SeleniumTest.Tests\SeleniumTest.Tests.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <SpecFlowFeatureFiles Update="Features\SeleniumTest.feature">
+      <Visible>False</Visible>
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>SeleniumTest.feature.cs</LastGenOutput>
+    </SpecFlowFeatureFiles>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Features\SeleniumTest.feature.cs">
+      <DependentUpon>SeleniumTest.feature</DependentUpon>
+    </Compile>
+  </ItemGroup>
+</Project>
