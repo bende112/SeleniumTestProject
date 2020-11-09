@@ -6806,11 +6806,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/fixterall/Projects/TestingProject/TestingProject/TestingProject.csproj",
+      "projectUniqueName": "/Users/fixterall/Desktop/TestingProject/TestingProject/TestingProject.csproj",
       "projectName": "TestingProject",
-      "projectPath": "/Users/fixterall/Projects/TestingProject/TestingProject/TestingProject.csproj",
+      "projectPath": "/Users/fixterall/Desktop/TestingProject/TestingProject/TestingProject.csproj",
       "packagesPath": "/Users/fixterall/.nuget/packages/",
-      "outputPath": "/Users/fixterall/Projects/TestingProject/TestingProject/obj/",
+      "outputPath": "/Users/fixterall/Desktop/TestingProject/TestingProject/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/fixterall/.config/NuGet/NuGet.Config"
@@ -6824,8 +6824,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "/Users/fixterall/Projects/TestingProject/SeleniumTest.Tests/SeleniumTest.Tests.csproj": {
-              "projectPath": "/Users/fixterall/Projects/TestingProject/SeleniumTest.Tests/SeleniumTest.Tests.csproj"
+            "/Users/fixterall/Desktop/TestingProject/SeleniumTest.Tests/SeleniumTest.Tests.csproj": {
+              "projectPath": "/Users/fixterall/Desktop/TestingProject/SeleniumTest.Tests/SeleniumTest.Tests.csproj"
             }
           }
         }

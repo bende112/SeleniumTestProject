@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vxxSN85ndXQb+dadnAE6dAID+KaOB5ZEvmm/I4UWqtGyB76cPKnfy2DKBUtbK56S8BI1T/BzLeZzHjdPDeLG/Q==",
+  "dgSpecHash": "TBxvIUQvEaRp2sI43QVdkp/3xOWV1N282hqvzXFLAedWn1W69LaXgD2bDFrqvFnvGXMQMdkqrQRnB3RDACn5QQ==",
   "success": true,
-  "projectFilePath": "/Users/fixterall/Projects/TestingProject/TestingProject/TestingProject.csproj",
+  "projectFilePath": "/Users/fixterall/Desktop/TestingProject/TestingProject/TestingProject.csproj",
   "expectedPackageFiles": [
     "/Users/fixterall/.nuget/packages/bodi/1.4.1/bodi.1.4.1.nupkg.sha512",
     "/Users/fixterall/.nuget/packages/cucumber.messages/6.0.1/cucumber.messages.6.0.1.nupkg.sha512",

@@ -1,22 +1,21 @@
 ﻿<Properties StartupConfiguration="{21710279-36AE-471C-AC23-53AF74AF20A4}|Default">
   <MonoDevelop.Ide.ItemProperties.TestingProject PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestingProject/Features/SeleniumTest.feature.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestingProject/PageObject/TestHomePage.cs">
     <Files>
       <File FileName="TestingProject/TestClass.cs" Line="59" Column="28" />
       <File FileName="TestingProject/Features/SeleniumTest.feature" Line="37" Column="29" />
-      <File FileName="TestingProject/StepDefinations/SeleniumTest.cs" Line="97" Column="39" />
-      <File FileName="TestingProject/PageObject/TestHomePage.cs" Line="84" Column="67" />
-      <File FileName="TestingProject/Features/SeleniumTest.feature.cs" Line="186" Column="28" />
+      <File FileName="TestingProject/StepDefinations/SeleniumTest.cs" Line="88" Column="8" />
+      <File FileName="TestingProject/PageObject/TestHomePage.cs" Line="21" Column="89" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TestingProject" expanded="True">
             <Node name="TestingProject" expanded="True">
-              <Node name="Features" expanded="True">
-                <Node name="SeleniumTest.feature.cs" selected="True" />
+              <Node name="Features" expanded="True" />
+              <Node name="PageObject" expanded="True">
+                <Node name="TestHomePage.cs" selected="True" />
               </Node>
-              <Node name="PageObject" expanded="True" />
               <Node name="StepDefinations" expanded="True" />
             </Node>
           </Node>
@@ -26,12 +25,9 @@
         <State name="__root__">
           <Node name="TestingProject" expanded="True">
             <Node name="TestingProject" expanded="True">
-              <Node name="TestingProject" expanded="True">
-                <Node name="TestClass" expanded="True" />
-              </Node>
               <Node name="TestingProject.Features" expanded="True">
                 <Node name="SeleniumTestFeature" expanded="True">
-                  <Node name="UserViewAnotherCustomerDetail" selected="True" />
+                  <Node name="CheckCustomerList" selected="True" />
                 </Node>
               </Node>
             </Node>

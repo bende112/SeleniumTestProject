@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/fixterall/Projects/TestingProject/SeleniumTest.Tests/SeleniumTest.Tests.csproj": {}
+    "/Users/fixterall/Desktop/TestingProject/SeleniumTest.Tests/SeleniumTest.Tests.csproj": {}
   },
   "projects": {
-    "/Users/fixterall/Projects/TestingProject/SeleniumTest.Tests/SeleniumTest.Tests.csproj": {
+    "/Users/fixterall/Desktop/TestingProject/SeleniumTest.Tests/SeleniumTest.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/fixterall/Projects/TestingProject/SeleniumTest.Tests/SeleniumTest.Tests.csproj",
+        "projectUniqueName": "/Users/fixterall/Desktop/TestingProject/SeleniumTest.Tests/SeleniumTest.Tests.csproj",
         "projectName": "SeleniumTest.Tests",
-        "projectPath": "/Users/fixterall/Projects/TestingProject/SeleniumTest.Tests/SeleniumTest.Tests.csproj",
+        "projectPath": "/Users/fixterall/Desktop/TestingProject/SeleniumTest.Tests/SeleniumTest.Tests.csproj",
         "packagesPath": "/Users/fixterall/.nuget/packages/",
-        "outputPath": "/Users/fixterall/Projects/TestingProject/SeleniumTest.Tests/obj/",
+        "outputPath": "/Users/fixterall/Desktop/TestingProject/SeleniumTest.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/fixterall/.config/NuGet/NuGet.Config"

@@ -50,12 +50,12 @@ namespace TestingProject.PageObject
         }
         public void ClickViewButton()
         {
-            IWebElement ViewButton = driver.FindElement(By.CssSelector("button[data-test='2']"));
+            IWebElement ViewButton = driver.FindElement(By.XPath("//button[@data-test='2']"));
             ViewButton.Click();
         }
         public void ClickLastViewButton()
         {
-            IWebElement ViewButton2 = driver.FindElement(By.CssSelector("button[data-test='3']"));
+            IWebElement ViewButton2 = driver.FindElement(By.XPath("//button[@data-test='3']"));
             ViewButton2.Click();
         }
 
@@ -66,7 +66,7 @@ namespace TestingProject.PageObject
             string thirdName = "Steve Jones";
             String actualTitle = driver.Title;
 
-            IWebElement CustomoerListSection = driver.FindElement(By.CssSelector("col-md-3"));
+            IWebElement CustomoerListSection = driver.FindElement(By.XPath("//div[@class='panel-heading']"));
             if (firstName.Equals(actualTitle))
             {
                 Console.WriteLine(firstName);
@@ -83,11 +83,6 @@ namespace TestingProject.PageObject
             {
                 Assert.Fail("The expected message was not found");
             }
-
-
-            Assert.IsTrue(CustomoerListSection.Text.Contains(firstName));
-            Assert.IsTrue(CustomoerListSection.Text.Contains(secondName));
-            Assert.IsTrue(CustomoerListSection.Text.Contains(thirdName));
         }
     }
 

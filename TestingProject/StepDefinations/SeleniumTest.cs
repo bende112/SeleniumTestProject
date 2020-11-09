@@ -85,12 +85,7 @@ namespace MyNamespace
             t.AddRow(row8);
             t.AddRow(row9);
         }
-        //[When(@"the user clicks the '(.*)' Details button")]
-        //public void WhenTheUserClicksTheDetailsButton(string p0)
-        //{
-        //    UserClickLastViewButton();
-        //}
-
+       
         [When(@"the user clicks the last '(.*)' button")]
         public void WhenTheUserClicksTheLastButton(string p0)
         {

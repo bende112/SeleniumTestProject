@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oyrfPNQ9nOM8vJPoKQKemr8SviylrhQje7yRfA0b0pXRSRvvlKeA+DG6qj9MSWW6/PnBsyqhyYIY/JnEJ9Avjg==",
+  "dgSpecHash": "B94uOV/NkXBdsJ7IsJrv9J5iKvdCtRGMrKOq1YVZdGkacoj/4jxTg6pc0wHCPy3YCfEd7ThvCXmDoGsgsNIjag==",
   "success": true,
-  "projectFilePath": "/Users/fixterall/Projects/TestingProject/SeleniumTest.Tests/SeleniumTest.Tests.csproj",
+  "projectFilePath": "/Users/fixterall/Desktop/TestingProject/SeleniumTest.Tests/SeleniumTest.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/fixterall/.nuget/packages/microsoft.codecoverage/16.5.0/microsoft.codecoverage.16.5.0.nupkg.sha512",
     "/Users/fixterall/.nuget/packages/microsoft.csharp/4.3.0/microsoft.csharp.4.3.0.nupkg.sha512",
